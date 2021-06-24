@@ -26,7 +26,7 @@ Product.init(
             type: DataTypes.DECIMAL(10,2),
             allowNull: false,
             validate: {
-                isDecimal: true
+                isDecimal: true,
             }
         },
         // define stock column
